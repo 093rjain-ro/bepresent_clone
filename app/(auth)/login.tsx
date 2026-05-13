@@ -36,7 +36,7 @@ WebBrowser.maybeCompleteAuthSession()
 
 // ─── Set to true during development to show a "Skip to Home" button ───────────
 // Set to false before shipping to production.
-const DEV_ALLOW_SKIP = __DEV__
+const DEV_ALLOW_SKIP = true // Force enabled for Vercel MVP demo
 
 // ─── Disposable email blocklist ───────────────────────────────────────────────
 // Prevents throwaway emails from creating accounts.
